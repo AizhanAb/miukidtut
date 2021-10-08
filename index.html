@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/d31abeffb1.js" crossorigin="anonymous"></script>
+  <script src="addtocart.js" defer></script>
   <title>bootstrap</title>
 </head>
 <body>
@@ -68,7 +69,7 @@
               <span class="circle"><i class="fas fa-phone"></i></span>
                 <div class="right m-l-10">
                 <p>Have a questions</p> 
-                <p>Call <span class="blue">1800000000</span></p>
+                <p>Call <span class="blue"> <a href=""></a>14152691694</span></p>
             </div>
           </li>
           
@@ -175,17 +176,17 @@
 
                 </div> 
                 <div class="triangle "></div>
-                  <img src="img/img01.jpg" alt="photo of product">
+                  <img src="img/img01.jpg" id="img1" alt="photo of product">
                 <div class="desc_img">              
                       <div class="desc">
-                        <p class="title">Заголовок </p>
+                        <p class="title hov">Заголовок </p>
                         <p> OPisanie <span class="orange">Opisanie</span></p>
                       </div>                 
                 </div>
               </div>            
               
               <div class="body_product">
-                <p class="title">Animal Print Sweatshirt</p>
+                <p id="title1" class="title">Animal Print Sweatshirt 1</p>
                 <div class="block_stars">
                   <div class="stars">
                     <i class="fas fa-star"></i>
@@ -199,12 +200,12 @@
                   </div>
                 </div>
                 <div class="price">
-                  <span>$36</span>
+                  <span id="price">$36</span>
                   <del>$42</del>
                 </div>
                 <div class="buttons dnone">
                   <ul class="ul_li">
-                    <li>  <span class="circle"><i class="fas fa-shopping-bag"></i></span></li>
+                    <li>  <span class="circle"><i  id="shoppingicon"   class="fas fa-shopping-bag"></i></span></li>
                     <li>  <span class="circle"><i class="fas fa-balance-scale"></i></span></li>
                     <li>  <span class="circle"><i class="fas fa-heart"></i></span></li>
                   </ul>
